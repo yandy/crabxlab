@@ -1,0 +1,92 @@
+body .more_about{
+	background: #fcca03;
+}
+.why-content{
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+.why-content p{
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 40px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.how-content,.who-content{
+	margin-top: 70px;
+}
+.how-content p{
+	font-size: 20px;
+  	font-weight: 600;
+    text-align: left;
+ 	line-height: 33px;
+}
+.services .services_list img{
+	width: 100px;
+}
+.who-content-bottom p:first-child{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.who-content-bottom p:nth-child(2){
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+}
+.who-content p{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.who-content .p-title, .where-content .p-title, .what-content .p-title{
+  margin-bottom: 0;
+  margin-top: 30px;
+  color: black;
+  font-size: 19px;
+}
+.what-content p{
+  margin-top: 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+.what-content{
+ 	margin-bottom: 50px;
+}
+.what-content p, .what-content .p-title,.buynow .title h2{
+ 	color: white;
+}
+.where-content .image{
+  text-align: center;
+ 	margin-top: 40px;
+  margin-bottom: 40px;
+}
+.where-content img{
+	border: solid 3px gray;
+}
+.where-content p{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.park-photo img{
+  width: 35%;
+  min-width: 300px;
+}
+.map{
+  width: 80%;
+  min-width: 300px;
+}
+#preloader p{
+  font-size: 28px;
+  margin-top: 325px;
+  text-align: center;
+  color: #F5A800;
+}

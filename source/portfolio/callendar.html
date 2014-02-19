@@ -1,0 +1,81 @@
+<div class="portfolioitems scrollable">
+	
+	<!-- Close Bar -->
+	<div class="closebar">
+		<div class="closepage">
+			<span class="closebtn"></span>
+		</div>
+	</div>
+	
+		<div class="container">
+		
+			<div class="project_info clearfix">
+			
+				<!-- Title -->
+				<h1>2013 Calendar | Berlys</h1>
+				<h3>Digital Art, Photography</h3>
+				
+				<hr>
+				
+				<!-- Text -->
+				<article class="eight columns">
+					<p>You don't have to resize your images using any graphic editor! Just 
+					place images here and set layout like two images side by side, then one image
+					with full width. Talia is resizing images for you and fit them into container 
+					proportionally.</p>
+				</article>	
+				
+				<!-- Text -->
+				<article class="eight columns">
+					<p>Efficiently unleash cross-media information without cross-media value. 
+					Quickly maximize timely deliverables for real-time schemas. Dramatically 
+					maintain clicks-and-mortar solutions without functional solutions.</p>
+				</article>
+			
+			</div>
+			
+			<!-- Images/Videos -->
+			<div class="sixteen columns">
+				
+				<!-- Video (just replace link)
+				<div class="videoWrapper">
+					<iframe src="//player.vimeo.com/video/73822107" width="940" height="529" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div> -->
+
+				<!-- PhotoSet Layout 2,1,2,1 -->
+				<div class="photoset-grid" data-layout="12121">
+					<img src="images/full/cal1.jpg">
+					<img src="images/full/cal2.jpg">
+					<img src="images/full/cal3.jpg">
+					<img src="images/full/cal4.jpg">
+					<img src="images/full/cal5.jpg">
+					<img src="images/full/cal6.jpg">
+					<img src="images/full/cal7.jpg">
+				</div>
+
+			</div>
+			
+		</div>
+		
+		<div class="scrolltop">
+			<div class="go-to-top"><i class="icon-angle-up"></i></div>
+		</div>
+
+</div>
+
+<!-- Don't Delete -->
+<script type="text/javascript">
+	$('.photoset-grid').photosetGrid({
+		highresLinks: false,
+		gutter: '2px',
+	});
+	$('.go-to-top').click(function () {
+		$('#pageslide').animate({scrollTop: 0}, 600);
+		return false;
+	});
+	$('.closepage').click(function () {
+		$.pageslide.close();
+		$('#pageslide').animate({scrollTop: 0}, 0);
+		return false;
+	});
+</script>
