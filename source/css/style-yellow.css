@@ -685,7 +685,7 @@ a.scrolldown {
 }
 
 figure.portfolio-item {
-	background: #fcca03;
+	background: #fff;
 	display:block;
 }
 
@@ -734,7 +734,7 @@ figure.portfolio-item:hover .item-description {
 
 .item-description h5,
 .item-description span {
-	color: #fff;
+	color: #808080;
 	display: block;
 }
 
@@ -1885,6 +1885,7 @@ ul.social_icons li a.social i {
 	text-align: center;
 }
 
+ul.social_icons li a.social.weibo { background: #F5381B; }
 ul.social_icons li a.social.facebook { background: #3b5998; }
 ul.social_icons li a.social.dribbble { background: #ea4c89; }
 ul.social_icons li a.social.twitter { background: #00acee; }
